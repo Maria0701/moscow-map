@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const Stations = require('https://api.hh.ru/metro/1');
+const Stations = require('./stations.json');
 
 const CSS = {};
 CSS.BASE = 'moscow_metro_map';
